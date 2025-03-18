@@ -1,0 +1,250 @@
+´ÕÔ4Vxê{
+    "fuzzifications": [
+        {
+            "_division": 10,
+            "_maxValue": 35,
+            "_guid": "24cfd95c-7cc8-4325-92be-d6f6b60d86e7",
+            "_name": "distanciaObjetivo",
+            "_value": 15.899999618530274,
+            "trapezoids": [
+                {
+                    "_guid": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "targetCerca",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 3.7623748779296877,
+                    "_footPointRightValue": 18.76237678527832
+                },
+                {
+                    "_guid": "50445cfb-685f-46ee-a052-2ed5e66388ee",
+                    "_color": {
+                        "r": 0.07184255868196488,
+                        "g": 0.9956728219985962,
+                        "b": 0.6600881218910217,
+                        "a": 1.0
+                    },
+                    "_name": "targetMedio",
+                    "_peakPointLeftValue": 18.76237678527832,
+                    "_footPointLeftValue": 3.7623748779296877,
+                    "_peakPointRightValue": 18.76237678527832,
+                    "_footPointRightValue": 31.18811798095703
+                },
+                {
+                    "_guid": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "targetLejos",
+                    "_peakPointLeftValue": 31.18811798095703,
+                    "_footPointLeftValue": 18.76237678527832,
+                    "_peakPointRightValue": 35.0,
+                    "_footPointRightValue": 35.0
+                }
+            ]
+        },
+        {
+            "_division": 10,
+            "_maxValue": 40,
+            "_guid": "3d54e291-042a-42b1-a51b-720c3623628a",
+            "_name": "municion",
+            "_value": 31.799999237060548,
+            "trapezoids": [
+                {
+                    "_guid": "795eb4f4-5ee4-463d-895d-1194aad0db02",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "munPoca",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 0.0,
+                    "_footPointRightValue": 11.188117027282715
+                },
+                {
+                    "_guid": "2476d8d0-4f25-4914-80d6-0653ee0dd3f0",
+                    "_color": {
+                        "r": 0.9340869188308716,
+                        "g": 0.6733035445213318,
+                        "b": 0.5042080283164978,
+                        "a": 1.0
+                    },
+                    "_name": "munOk",
+                    "_peakPointLeftValue": 11.188117027282715,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 11.188117027282715,
+                    "_footPointRightValue": 32.07920837402344
+                },
+                {
+                    "_guid": "cd606ddb-4110-43fa-8ebe-37c3cee81568",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "munMucha",
+                    "_peakPointLeftValue": 32.07920837402344,
+                    "_footPointLeftValue": 11.188117027282715,
+                    "_peakPointRightValue": 40.0,
+                    "_footPointRightValue": 40.0
+                }
+            ]
+        }
+    ],
+    "_defuzzitication": {
+        "_division": 10,
+        "_maxValue": 100,
+        "_guid": "0f814b84-a3c5-44d7-bd39-b162ae3ab63f",
+        "_name": "deseabilidad",
+        "_value": 0.0,
+        "trapezoids": [
+            {
+                "_guid": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+                "_color": {
+                    "r": 1.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "noDeseable",
+                "_peakPointLeftValue": -50.0,
+                "_footPointLeftValue": -50.0,
+                "_peakPointRightValue": 25.0,
+                "_footPointRightValue": 49.39024353027344
+            },
+            {
+                "_guid": "8031448e-e296-41fb-801b-3dbcf108a572",
+                "_color": {
+                    "r": 0.8198118209838867,
+                    "g": 0.0042570834048092369,
+                    "b": 0.9636380672454834,
+                    "a": 1.0
+                },
+                "_name": "deseable",
+                "_peakPointLeftValue": 50.0,
+                "_footPointLeftValue": 25.0,
+                "_peakPointRightValue": 50.0,
+                "_footPointRightValue": 75.0
+            },
+            {
+                "_guid": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+                "_color": {
+                    "r": 0.0,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "muyDeseable",
+                "_peakPointLeftValue": 75.0,
+                "_footPointLeftValue": 50.0,
+                "_peakPointRightValue": 110.19955444335938,
+                "_footPointRightValue": 125.0
+            }
+        ],
+        "_subdivision": 20
+    },
+    "inferences": [
+        {
+            "_guid": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_name": "0",
+            "_leftSideInputGUID": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+            "_rightSideInputGUID": "743481a6-088c-4cd8-a702-45043d05df76",
+            "_outputGUID": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_op": 1
+        },
+        {
+            "_guid": "76f1ea5c-2651-4b31-842b-72d58bf3a77b",
+            "_name": "1",
+            "_leftSideInputGUID": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_rightSideInputGUID": "1aff306c-262b-41ab-b549-ac004cae6eda",
+            "_outputGUID": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+            "_op": 2
+        },
+        {
+            "_guid": "32b9bfd9-829e-4a86-8101-5500af68bb75",
+            "_name": "2",
+            "_leftSideInputGUID": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+            "_rightSideInputGUID": "cd606ddb-4110-43fa-8ebe-37c3cee81568",
+            "_outputGUID": "32b9bfd9-829e-4a86-8101-5500af68bb75",
+            "_op": 1
+        },
+        {
+            "_guid": "0198941c-41eb-4ae4-981e-722c45050e27",
+            "_name": "3",
+            "_leftSideInputGUID": "50445cfb-685f-46ee-a052-2ed5e66388ee",
+            "_rightSideInputGUID": "743481a6-088c-4cd8-a702-45043d05df76",
+            "_outputGUID": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+            "_op": 1
+        },
+        {
+            "_guid": "aef0408f-b50f-4ed6-807c-35b7a1368988",
+            "_name": "4",
+            "_leftSideInputGUID": "50445cfb-685f-46ee-a052-2ed5e66388ee",
+            "_rightSideInputGUID": "795eb4f4-5ee4-463d-895d-1194aad0db02",
+            "_outputGUID": "aef0408f-b50f-4ed6-807c-35b7a1368988",
+            "_op": 1
+        },
+        {
+            "_guid": "743481a6-088c-4cd8-a702-45043d05df76",
+            "_name": "5",
+            "_leftSideInputGUID": "2476d8d0-4f25-4914-80d6-0653ee0dd3f0",
+            "_rightSideInputGUID": "cd606ddb-4110-43fa-8ebe-37c3cee81568",
+            "_outputGUID": "743481a6-088c-4cd8-a702-45043d05df76",
+            "_op": 2
+        },
+        {
+            "_guid": "666849d4-cbbf-4508-a0dc-c162b2540a1b",
+            "_name": "6",
+            "_leftSideInputGUID": "795eb4f4-5ee4-463d-895d-1194aad0db02",
+            "_rightSideInputGUID": "2476d8d0-4f25-4914-80d6-0653ee0dd3f0",
+            "_outputGUID": "666849d4-cbbf-4508-a0dc-c162b2540a1b",
+            "_op": 2
+        },
+        {
+            "_guid": "1b896b90-7d5c-42b8-b48d-73ff63b8e8c2",
+            "_name": "7",
+            "_leftSideInputGUID": "cd606ddb-4110-43fa-8ebe-37c3cee81568",
+            "_rightSideInputGUID": "666849d4-cbbf-4508-a0dc-c162b2540a1b",
+            "_outputGUID": "1b896b90-7d5c-42b8-b48d-73ff63b8e8c2",
+            "_op": 2
+        },
+        {
+            "_guid": "1aff306c-262b-41ab-b549-ac004cae6eda",
+            "_name": "8",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "1b896b90-7d5c-42b8-b48d-73ff63b8e8c2",
+            "_outputGUID": "1aff306c-262b-41ab-b549-ac004cae6eda",
+            "_op": 1
+        },
+        {
+            "_guid": "afbadbf8-1a52-4ace-ad7b-1202604785aa",
+            "_name": "9",
+            "_leftSideInputGUID": "50445cfb-685f-46ee-a052-2ed5e66388ee",
+            "_rightSideInputGUID": "795eb4f4-5ee4-463d-895d-1194aad0db02",
+            "_outputGUID": "afbadbf8-1a52-4ace-ad7b-1202604785aa",
+            "_op": 1
+        },
+        {
+            "_guid": "a212d8f4-4348-4c36-8b20-033475648e4b",
+            "_name": "10",
+            "_leftSideInputGUID": "32b9bfd9-829e-4a86-8101-5500af68bb75",
+            "_rightSideInputGUID": "afbadbf8-1a52-4ace-ad7b-1202604785aa",
+            "_outputGUID": "8031448e-e296-41fb-801b-3dbcf108a572",
+            "_op": 2
+        }
+    ],
+    "_guid": "e464ddbf-d6f2-468c-a7d5-7e81a720865c",
+    "_name": "elijeArma2"
+}

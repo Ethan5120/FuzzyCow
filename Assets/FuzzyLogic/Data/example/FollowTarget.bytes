@@ -1,0 +1,202 @@
+´ÕÔ4Vxê{
+    "fuzzifications": [
+        {
+            "_division": 10,
+            "_maxValue": 100,
+            "_guid": "24cfd95c-7cc8-4325-92be-d6f6b60d86e7",
+            "_name": "Estres",
+            "_value": 0.0,
+            "trapezoids": [
+                {
+                    "_guid": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Poco",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 0.0,
+                    "_footPointRightValue": 50.0
+                },
+                {
+                    "_guid": "80c11746-1ae4-4cbb-8a1f-c1eded78f798",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.993529736995697,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Medio",
+                    "_peakPointLeftValue": 50.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 50.0,
+                    "_footPointRightValue": 100.0
+                },
+                {
+                    "_guid": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Mucho",
+                    "_peakPointLeftValue": 100.0,
+                    "_footPointLeftValue": 50.0,
+                    "_peakPointRightValue": 100.0,
+                    "_footPointRightValue": 100.0
+                }
+            ]
+        },
+        {
+            "_division": 10,
+            "_maxValue": 100,
+            "_guid": "2e36cfd2-ccb2-458d-8e68-aae46189f895",
+            "_name": "Hambre",
+            "_value": 0.0,
+            "trapezoids": [
+                {
+                    "_guid": "561ffac6-6d09-4b43-997c-f9199b30e275",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Poca",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 0.0,
+                    "_footPointRightValue": 50.0
+                },
+                {
+                    "_guid": "fff38554-7a6e-4e79-a7ce-2eb89443db45",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.9935299158096314,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Media",
+                    "_peakPointLeftValue": 50.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 50.0,
+                    "_footPointRightValue": 100.0
+                },
+                {
+                    "_guid": "36be48a7-d437-45ff-b38f-7be8aa425f17",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "Mucha",
+                    "_peakPointLeftValue": 100.0,
+                    "_footPointLeftValue": 50.0,
+                    "_peakPointRightValue": 100.0,
+                    "_footPointRightValue": 100.0
+                }
+            ]
+        }
+    ],
+    "_defuzzitication": {
+        "_division": 10,
+        "_maxValue": 100,
+        "_guid": "0f814b84-a3c5-44d7-bd39-b162ae3ab63f",
+        "_name": "Lactancia",
+        "_value": 100.0,
+        "trapezoids": [
+            {
+                "_guid": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+                "_color": {
+                    "r": 1.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "Baja",
+                "_peakPointLeftValue": 0.0,
+                "_footPointLeftValue": -50.0,
+                "_peakPointRightValue": 0.0,
+                "_footPointRightValue": 50.0
+            },
+            {
+                "_guid": "d5d89749-6cff-4b93-a8d4-ed481de230d1",
+                "_color": {
+                    "r": 0.9556835889816284,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "Media",
+                "_peakPointLeftValue": 50.0,
+                "_footPointLeftValue": 0.0,
+                "_peakPointRightValue": 50.0,
+                "_footPointRightValue": 100.0
+            },
+            {
+                "_guid": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+                "_color": {
+                    "r": 0.0,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "Alta",
+                "_peakPointLeftValue": 100.0,
+                "_footPointLeftValue": 50.0,
+                "_peakPointRightValue": 100.0,
+                "_footPointRightValue": 150.0
+            }
+        ],
+        "_subdivision": 20
+    },
+    "inferences": [
+        {
+            "_guid": "f431c17b-c51b-49bb-8c87-26aefa3f9fb6",
+            "_name": "",
+            "_leftSideInputGUID": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+            "_rightSideInputGUID": "36be48a7-d437-45ff-b38f-7be8aa425f17",
+            "_outputGUID": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+            "_op": 1
+        },
+        {
+            "_guid": "012287a5-4142-4ad7-9c51-c5e917efdef2",
+            "_name": "",
+            "_leftSideInputGUID": "80c11746-1ae4-4cbb-8a1f-c1eded78f798",
+            "_rightSideInputGUID": "fff38554-7a6e-4e79-a7ce-2eb89443db45",
+            "_outputGUID": "d5d89749-6cff-4b93-a8d4-ed481de230d1",
+            "_op": 1
+        },
+        {
+            "_guid": "73b7aba0-2b08-4eed-9125-8569e4271ac0",
+            "_name": "",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "561ffac6-6d09-4b43-997c-f9199b30e275",
+            "_outputGUID": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+            "_op": 1
+        },
+        {
+            "_guid": "e89a029f-bdaa-46ee-ac1e-6ca3d2499423",
+            "_name": "",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "fff38554-7a6e-4e79-a7ce-2eb89443db45",
+            "_outputGUID": "e89a029f-bdaa-46ee-ac1e-6ca3d2499423",
+            "_op": 1
+        },
+        {
+            "_guid": "623b97aa-42af-4ec6-92e5-181226011823",
+            "_name": "",
+            "_leftSideInputGUID": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+            "_rightSideInputGUID": "561ffac6-6d09-4b43-997c-f9199b30e275",
+            "_outputGUID": "623b97aa-42af-4ec6-92e5-181226011823",
+            "_op": 1
+        }
+    ],
+    "_guid": "9a609ffc-848b-444d-a3c5-a435c4f60fe9",
+    "_name": "FuzzyCow"
+}

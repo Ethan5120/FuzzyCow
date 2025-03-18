@@ -1,0 +1,178 @@
+´ÕÔ4Vxê{
+    "fuzzifications": [
+        {
+            "_division": 10,
+            "_maxValue": 50,
+            "_guid": "24cfd95c-7cc8-4325-92be-d6f6b60d86e7",
+            "_name": "distanciaObjetivo",
+            "_value": 0.0,
+            "trapezoids": [
+                {
+                    "_guid": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "targetCerca",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 8.613860130310059,
+                    "_footPointRightValue": 25.0
+                },
+                {
+                    "_guid": "50445cfb-685f-46ee-a052-2ed5e66388ee",
+                    "_color": {
+                        "r": 0.07184255868196488,
+                        "g": 0.9956728219985962,
+                        "b": 0.6600881218910217,
+                        "a": 1.0
+                    },
+                    "_name": "targetMedio",
+                    "_peakPointLeftValue": 25.0,
+                    "_footPointLeftValue": 8.613860130310059,
+                    "_peakPointRightValue": 25.0,
+                    "_footPointRightValue": 41.58415985107422
+                },
+                {
+                    "_guid": "bb7e9c46-5499-4065-93ef-f75bbed5ee07",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "targetLejos",
+                    "_peakPointLeftValue": 41.58415985107422,
+                    "_footPointLeftValue": 25.0,
+                    "_peakPointRightValue": 50.0,
+                    "_footPointRightValue": 50.0
+                }
+            ]
+        },
+        {
+            "_division": 10,
+            "_maxValue": 40,
+            "_guid": "3d54e291-042a-42b1-a51b-720c3623628a",
+            "_name": "municion",
+            "_value": 0.0,
+            "trapezoids": [
+                {
+                    "_guid": "795eb4f4-5ee4-463d-895d-1194aad0db02",
+                    "_color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "munPoca",
+                    "_peakPointLeftValue": 0.0,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 0.0,
+                    "_footPointRightValue": 11.188117027282715
+                },
+                {
+                    "_guid": "2476d8d0-4f25-4914-80d6-0653ee0dd3f0",
+                    "_color": {
+                        "r": 0.9340869188308716,
+                        "g": 0.6733035445213318,
+                        "b": 0.5042080283164978,
+                        "a": 1.0
+                    },
+                    "_name": "munOk",
+                    "_peakPointLeftValue": 11.188117027282715,
+                    "_footPointLeftValue": 0.0,
+                    "_peakPointRightValue": 11.188117027282715,
+                    "_footPointRightValue": 32.07920837402344
+                },
+                {
+                    "_guid": "cd606ddb-4110-43fa-8ebe-37c3cee81568",
+                    "_color": {
+                        "r": 0.0,
+                        "g": 1.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "_name": "munMucha",
+                    "_peakPointLeftValue": 32.07920837402344,
+                    "_footPointLeftValue": 11.188117027282715,
+                    "_peakPointRightValue": 40.0,
+                    "_footPointRightValue": 40.0
+                }
+            ]
+        }
+    ],
+    "_defuzzitication": {
+        "_division": 10,
+        "_maxValue": 100,
+        "_guid": "0f814b84-a3c5-44d7-bd39-b162ae3ab63f",
+        "_name": "deseabilidad",
+        "_value": 0.0,
+        "trapezoids": [
+            {
+                "_guid": "949f005e-0aaa-4392-b493-2e1fc69356d3",
+                "_color": {
+                    "r": 1.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "",
+                "_peakPointLeftValue": 0.0,
+                "_footPointLeftValue": -25.0,
+                "_peakPointRightValue": 0.0,
+                "_footPointRightValue": 25.0
+            },
+            {
+                "_guid": "debb74e5-7893-45b2-8b9f-acda6d0636d6",
+                "_color": {
+                    "r": 0.507160484790802,
+                    "g": 0.8579028844833374,
+                    "b": 0.2705581486225128,
+                    "a": 1.0
+                },
+                "_name": "deseabble",
+                "_peakPointLeftValue": 50.0,
+                "_footPointLeftValue": 0.0,
+                "_peakPointRightValue": 50.0,
+                "_footPointRightValue": 100.0
+            },
+            {
+                "_guid": "04ae3bcd-f810-401b-8df0-daa03ef237f8",
+                "_color": {
+                    "r": 0.0,
+                    "g": 1.0,
+                    "b": 0.0,
+                    "a": 1.0
+                },
+                "_name": "muyDeseable",
+                "_peakPointLeftValue": 100.0,
+                "_footPointLeftValue": 75.0,
+                "_peakPointRightValue": 100.0,
+                "_footPointRightValue": 125.0
+            }
+        ],
+        "_subdivision": 20
+    },
+    "inferences": [
+        {
+            "_guid": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_name": "",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_outputGUID": "35ac76b0-8505-484b-818f-dca41e7bba87",
+            "_op": 1
+        },
+        {
+            "_guid": "76f1ea5c-2651-4b31-842b-72d58bf3a77b",
+            "_name": "",
+            "_leftSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_rightSideInputGUID": "91c8a3e7-b0cb-48b9-a51a-16938cf7ddac",
+            "_outputGUID": "76f1ea5c-2651-4b31-842b-72d58bf3a77b",
+            "_op": 1
+        }
+    ],
+    "_guid": "e464ddbf-d6f2-468c-a7d5-7e81a720865c",
+    "_name": "elijeArma"
+}
